@@ -12,3 +12,4 @@ for i in range(1000):
 with open('g:/time.txt', 'w') as out:
     time = timeit.default_timer() - beg
     out.write(str(time))
+	
